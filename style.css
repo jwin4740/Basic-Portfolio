@@ -6,6 +6,7 @@
 
 body{
 	width: 960px;
+	
 }
 
 nav{
@@ -55,9 +56,17 @@ a:link{
 	clear: both;
 	background-image: url("port.png");
 	background-repeat: repeat;
-	height: 500px;
+	height: 400px;
 }
 
+.bottom{
+	height: 70px;
+	background-color: #666666;
+	color: #cccccc;
+	border-top: solid 6px #4aaaa5;
+	padding-top: 20px;
+	
+}
 
 
 	
