@@ -51,6 +51,13 @@ a:link{
 	
 }
 
+.sbody{
+	clear: both;
+	background-image: url("port.png");
+	background-repeat: repeat;
+	height: 500px;
+}
+
 
 
 	
