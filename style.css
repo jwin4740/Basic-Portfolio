@@ -5,7 +5,7 @@
 
 body{
 	margin: auto;
-	border: solid 4px red;
+	border: solid 2px red;
 	height: 638px;
 }
 
@@ -59,7 +59,29 @@ main{
 	border: solid 1px #cccccc;
 }
 
+	.contentbox{
+		float: left;
+		margin-left: 5%;
+		margin-top: 2.5%;
+		background-color: white;
+		border: solid 1px #cccccc;
+		width: 50%;
+		height: 90%;	
+	}
+		
+	.social{
+		float: left;
+		margin-top: 2.5%;
+		margin-left: 5%;
+		background-color: white;
+		height: 30%;
+		width: 20%;
+		border: solid 1px #cccccc;
+	}
+
+
 footer{
+	clear: both;
 	width: 85%;
 	height: 70px;
 	background-color: #666666;
@@ -67,5 +89,4 @@ footer{
 	border-top: solid 6px #4aaaa5;
 	margin-left: 7.5%;
 	margin-right: 7.5%;
-
 }
