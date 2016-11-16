@@ -5,110 +5,67 @@
 
 body{
 	margin: auto;
-	height: 795px;
-}
-
-main{
-	margin-left: 7.5%;
-	margin-right: 7.5%;
-	
+	border: solid 4px red;
+	height: 638px;
 }
 
 nav{
+	margin-left: 7.5%;
+	margin-right: 7.5%;
 	border: solid 1px #cccccc;
 	background-color: #ffffff;
-	height: 80px;
+	height: 70px;
 }
+	.name{
+		float: left;
+		background-color: #4aaaa5;
+		padding: 20px;
+		color: white;
+		font-size: 25px;
+		height: 100%;
+	}
 
-a:link{
+	a:link{
 	text-decoration: none;
 	color: #777777;
-	
-}
-	
+	}
 
-.name{
-	background-color: #4aaaa5;
-	padding: 20px;
-	color: white;
-	font-size: 25px;
-	float: left;
-	margin-left: 60px;
-	height: 100%;
-}
-
-.right{
+	.right{
 	float: right;
 	width: 8%;
 	font-size: 14px;
 	margin-top: 20px;
 	margin-bottom: 30px;
-}
+	}
 
-.contact{
-	margin-right: 50px;
-}
+		.contact{
+		margin-right: 50px;
+		}
 
-.portfolio{
-	border-right: solid 1px #cccccc;
-}
+		.portfolio{
+		border-right: solid 1px #cccccc;
+		}
 
-.about{
-	border-right: solid 1px #cccccc;
-	
-}
-
-.sbody{
+		.about{
+		border-right: solid 1px #cccccc;
+		}
+main{
 	clear: both;
+	margin-left: 7.5%;
+	margin-right: 7.5%;
 	background-image: url("tile.jpg");
 	background-repeat: repeat;
-	height: 637px;
+	height: 78%;
 	border: solid 1px #cccccc;
 }
 
-
-
-#contentbox{
-	background-color: white;
-	border: solid 1px #cccccc;
-	width: 40%;
-	height: 80px;
-	
-	
-	
-	
-}
-	
-#contactbox{
-	background-color: white;
-	height: 80%;
-	width: 20%;
-	
-	position: relative;
-	top: 30px;
-	left: 30px;
-	border: solid 1px #cccccc;
-	
-}
-
-.connect{
-	color: #4aaaa5;
-	font-size: 21px;
-	border-bottom: solid 1px #cccccc;
-	padding-bottom: 10px;
-	margin: 15px 20px 10px 20px;
-
-	
-}
-	
-.bottom{
+footer{
 	width: 85%;
-	height: 80px;
+	height: 70px;
 	background-color: #666666;
 	color: #cccccc;
 	border-top: solid 6px #4aaaa5;
-	position: fixed;
-	bottom: 0px;
 	margin-left: 7.5%;
+	margin-right: 7.5%;
 
 }
