@@ -1,18 +1,23 @@
 *{
 	box-sizing: border-box;
-	text-align: center;
-	
+	text-align: center;	
 }
 
 body{
-	width: 960px;
+	margin: auto;
+	height: 795px;
+}
+
+main{
+	margin-left: 7.5%;
+	margin-right: 7.5%;
 	
 }
 
 nav{
 	border: solid 1px #cccccc;
 	background-color: #ffffff;
-	height: 70px;
+	height: 80px;
 }
 
 a:link{
@@ -29,6 +34,7 @@ a:link{
 	font-size: 25px;
 	float: left;
 	margin-left: 60px;
+	height: 100%;
 }
 
 .right{
@@ -54,22 +60,55 @@ a:link{
 
 .sbody{
 	clear: both;
-	background-image: url("port.png");
+	background-image: url("tile.jpg");
 	background-repeat: repeat;
-	height: 400px;
+	height: 637px;
+	border: solid 1px #cccccc;
 }
 
+
+
+#contentbox{
+	background-color: white;
+	border: solid 1px #cccccc;
+	width: 40%;
+	height: 80px;
+	
+	
+	
+	
+}
+	
+#contactbox{
+	background-color: white;
+	height: 80%;
+	width: 20%;
+	
+	position: relative;
+	top: 30px;
+	left: 30px;
+	border: solid 1px #cccccc;
+	
+}
+
+.connect{
+	color: #4aaaa5;
+	font-size: 21px;
+	border-bottom: solid 1px #cccccc;
+	padding-bottom: 10px;
+	margin: 15px 20px 10px 20px;
+
+	
+}
+	
 .bottom{
-	height: 70px;
+	width: 85%;
+	height: 80px;
 	background-color: #666666;
 	color: #cccccc;
 	border-top: solid 6px #4aaaa5;
-	padding-top: 20px;
-	
+	position: fixed;
+	bottom: 0px;
+	margin-left: 7.5%;
+
 }
-
-
-	
-
-
-
