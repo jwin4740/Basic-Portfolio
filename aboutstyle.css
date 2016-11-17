@@ -59,7 +59,7 @@ main{
 	clear: both;
 	margin-left: 7.5%;
 	margin-right: 7.5%;
-	background-image: url("tile.jpg");
+	background-image: url("images/tile.jpg");
 	background-repeat: repeat;
 	height: 78%;
 	border: solid 1px #cccccc;
