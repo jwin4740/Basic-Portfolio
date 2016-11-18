@@ -65,11 +65,15 @@ main{
 		margin-top: 2.5%;
 		background-color: white;
 		border: solid 1px #cccccc;
-		width: 35%;
+		width: 398px;
 		min-width: 100px;
 		height: 90%;	
 	}
-
+	.absolute{
+		position: absolute;
+		width: 398px;
+		margin-left: 0%;
+	}
 	.images{
 		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 		font-size: 12px;
@@ -124,7 +128,7 @@ main{
     top: -40px;
     right: 0px;
     bottom: 0px;
-    left: 16px;
+    left: 29px;
     z-index: 2;
     opacity: 0.9;
 				
@@ -139,7 +143,7 @@ main{
     top: -55px;
     right: 0px;
     bottom: 0px;
-    left: 16px;
+    left: 29px;
     z-index: 2;
     opacity: 0.9;
 				
@@ -154,7 +158,7 @@ main{
     top: -71px;
     right: 0px;
     bottom: 0px;
-    left: 16px;
+    left: 29px;
     opacity: 0.9;
 				
 				z-index: 2;
@@ -169,7 +173,7 @@ main{
     top: -452px;
     right: 0px;
     bottom: 0px;
-    left: 216px;
+    left: 229px;
     z-index: 2;
     opacity: 0.9;
 				
@@ -184,7 +188,7 @@ main{
     top: -466px;
     right: 0px;
     bottom: 0px;
-    left: 216px;
+    left: 229px;
     z-index: 2;
     opacity: 0.9;
 				
@@ -200,7 +204,7 @@ main{
 		margin-left: 7.5%;
 		background-color: white;
 		height: 30%;
-		width: 20%;
+		width: 215px;
 		border: solid 1px #cccccc;
 		
 	}
