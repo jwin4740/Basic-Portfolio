@@ -58,7 +58,7 @@ main{
 	height: 78%;
 	border: solid 1px #cccccc;
 }
-
+/* portfolio box*/
 	.contentbox{
 		float: left;
 		margin-left: 10%;
@@ -69,12 +69,131 @@ main{
 		min-width: 100px;
 		height: 90%;	
 	}
+
+	.images{
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		font-size: 12px;
+		margin: 0px;
+	}
 		.port{
-			float: left;
-			width: 125px;
+			clear: both;
+			width: 140px;
 			height: 100px;
-			margin: 20px;
-		}	
+		}
+
+			#one{    position: relative;
+			    top: 0px;
+			    right: 0px;
+			    bottom: 50px;
+			    left: -100px;
+			}
+
+			#two{
+				    position: relative;
+    top: -15px;
+    right: 50px;
+    bottom: 50px;
+    left: -100px;
+				}
+			#three{
+			position: relative;
+    top: -30px;
+    right: 50px;
+    bottom: 50px;
+    left: -100px;
+				
+			}
+			#four{
+				    position: relative;
+    top: -412px;
+    right: -15px;
+    bottom: 50px;
+    left: 100px;
+				
+			}
+			#five{
+				position: relative;
+    top: -426px;
+    right: 50px;
+    bottom: 50px;
+    left: 100px;
+			}
+
+			.hangman{
+				position: relative;
+    top: -40px;
+    right: 0px;
+    bottom: 0px;
+    left: 16px;
+    z-index: 2;
+    opacity: 0.9;
+				
+				background-color: #4aaaa5;
+				color: white;
+				padding: 10px;
+				width: 140px;
+			}
+
+			.trivia{
+				position: relative;
+    top: -55px;
+    right: 0px;
+    bottom: 0px;
+    left: 16px;
+    z-index: 2;
+    opacity: 0.9;
+				
+				background-color: #4aaaa5;
+				color: white;
+				padding: 10px;
+				width: 140px;
+			}
+
+			.rps{
+				position: relative;
+    top: -71px;
+    right: 0px;
+    bottom: 0px;
+    left: 16px;
+    opacity: 0.9;
+				
+				z-index: 2;
+				background-color: #4aaaa5;
+				color: white;
+				padding: 10px;
+				width: 140px;
+			}
+
+			.rpg{
+				    position: relative;
+    top: -452px;
+    right: 0px;
+    bottom: 0px;
+    left: 216px;
+    z-index: 2;
+    opacity: 0.9;
+				
+				background-color: #4aaaa5;
+				color: white;
+				padding: 10px;
+				width: 140px;
+			}
+
+			.ipad{
+				position: relative;
+    top: -466px;
+    right: 0px;
+    bottom: 0px;
+    left: 216px;
+    z-index: 2;
+    opacity: 0.9;
+				
+				background-color: #4aaaa5;
+				color: white;
+				padding: 10px;
+				width: 140px;
+			}
+		/* Social media box */		
 	.social{
 		float: left;
 		margin-top: 2.5%;
@@ -85,7 +204,7 @@ main{
 		border: solid 1px #cccccc;
 		
 	}
-		
+	
 		.connectwithme{
 			z-index: 1;
 			margin: 5px 15px 20px 15px;
